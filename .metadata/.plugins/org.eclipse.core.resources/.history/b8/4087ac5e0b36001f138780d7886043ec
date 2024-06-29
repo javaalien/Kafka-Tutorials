@@ -1,5 +1,0 @@
-package com.kafka.payload;
-
-public class User {
-
-}

@@ -1,5 +1,0 @@
-package com.kafka.json;
-
-public class JsonKafkaConsumer {
-
-}
