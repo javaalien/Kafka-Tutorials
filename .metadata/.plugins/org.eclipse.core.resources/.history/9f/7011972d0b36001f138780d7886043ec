@@ -1,0 +1,4 @@
+spring.application.name=springboot-kafka-tutorial
+
+spring.kafka.consumer.bootstrap-servers: localhost:9092
+spring.kafka.consumer.group-id: Aliengroup

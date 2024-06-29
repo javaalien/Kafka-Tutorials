@@ -1,0 +1,19 @@
+package com.kafka.config;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class KafkaTopicConfig {
+
+	@Value("${spring.kafka.topic.name}")
+	private String topicName;
+
+	@Value("${spring.kafka.topic-json.name}")
+	private String topicJsonName;
+
+	@Bean
+	public NewTopic javaguidesTopic() {
+		return TopicBuilder.name(topicName).build();
+	}
+
+}
