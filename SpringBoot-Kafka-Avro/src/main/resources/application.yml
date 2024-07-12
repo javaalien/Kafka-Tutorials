@@ -1,5 +1,5 @@
 server:
-  port: 7070
+  port: 9191
 spring:
   kafka:
     bootstrap-servers: "127.0.0.1:9092"
@@ -25,4 +25,4 @@ spring:
   application:
     name: SpringBoot-Kafka-Avro
 topic:
-  name: javatechie-avro-new
+  name: javaalien-avro-new
